@@ -1,0 +1,30 @@
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    margin-left: auto;
+    margin-right: auto; /* Membuat posisi menjadi di tengah */
+}
+
+button{
+    background-color: rgb(81, 81, 247);
+    border-radius: 0px;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #cfcfcf;
+    padding: 20px;
+    justify-content: center;
+    width: 30%; /* Lebar container diatur menjadi 50% dari lebar parent */
+    margin: 0 auto; /* Membuat posisi menjadi di tengah */
+}
+
+body{
+    background-color: rgb(5, 141, 190);
+}

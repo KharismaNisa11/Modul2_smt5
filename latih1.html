@@ -1,0 +1,30 @@
+<html>
+<head>
+<script>
+function Jumlahkan() {
+  //mendapatkan nilai dari inputan
+  var angka1 = document.getElementById("angka1").value;
+  var angka2 = document.getElementById("angka2").value;
+  //menjumlahkan nilai inputan
+  var hasil = parseInt(angka1) + parseInt(angka2);
+  //menampilkan hasil penjumlahan dalam alert
+  alert("Hasil Penjumlahan: " + hasil);
+}
+</script>
+</head>
+<body>
+    <h1>Program Penjumlahan Bilangan</h1>
+    <div>
+        <form>
+            <p>
+                Bilangan Pertama: <input type="text" id="angka1">
+                Bilangan Kedua: <input type="text2" id="angka2">
+            </p>
+            <button onclick="Jumlahkan()">Tambah</button>
+            <input type="reset" value="Reset">
+
+        </form>
+    </div>
+    
+</body>
+</html>
